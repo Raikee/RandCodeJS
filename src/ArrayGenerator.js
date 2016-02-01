@@ -8,14 +8,14 @@ var ng = require("./NameGenerator.js");
 var randnumarr = function(max, length) {
     var arr = [];
     for(var i=0;i<length;i++) arr.push(Math.floor((Math.random() * max) + 1));
-    return arr;
+    return arr.toString();
 };
 
 //creates an array of random strings
 var randstrarr = function(max, length) {
     var arr = [];
     for(var i=0;i<length;i++) arr.push(ng.randname(max));
-    return arr;
+    return arr.toString();
 };
 
 exports.randnumarr = randnumarr;
