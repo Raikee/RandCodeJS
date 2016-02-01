@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48163134-1a54-4b95-9f8c-3d6f3b7cb533" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FuncGenerator.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Methods.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FuncRoutes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayGenerator.js" afterPath="$PROJECT_DIR$/src/ArrayGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ForloopGenerator.js" afterPath="$PROJECT_DIR$/src/ForloopGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NameGenerator.js" afterPath="$PROJECT_DIR$/src/NameGenerator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FuncGenerator.js" afterPath="$PROJECT_DIR$/src/FuncGenerator.js" />
     </list>
     <ignored path="RandCodeJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -92,11 +89,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FuncGenerator.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FuncGenerator.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FuncGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10676157">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#37#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FuncRoutes.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FuncRoutes.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6939502">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
               </folding>
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/StringMethods.js" />
         <option value="$PROJECT_DIR$/src/Methods.js" />
         <option value="$PROJECT_DIR$/src/FuncGenerator.js" />
+        <option value="$PROJECT_DIR$/src/FuncRoutes.js" />
       </list>
     </option>
   </component>
@@ -472,8 +482,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FuncGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10676157">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FuncRoutes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6939502">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
           <folding>
             <element signature="e#0#37#0" expanded="false" />
           </folding>
