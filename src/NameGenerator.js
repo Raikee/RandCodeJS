@@ -10,6 +10,7 @@ var namefrags = {
 var randnum = function(n) {
     return Math.floor((Math.random() * n) + 1);
 };
+exports.randnum = randnum;
 //randomly selects an array element
 var randselect = function(arr) {
     return arr[Math.floor((Math.random() * arr.length))];
