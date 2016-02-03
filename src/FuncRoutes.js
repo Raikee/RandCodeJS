@@ -6,29 +6,19 @@
 //assignment, forloop, if statement, etc. It acts like a tree
 
 var funcroute = {
-    "newvar":[
+    "createvar":[
         "string",
-        "array",
+        "numarr",
+        "strarr",
         "number"
     ],
-    "addtovar":{
-        "string":[
-            ".concat({arg})",
-            "+= {arg}"
-        ],
-        "array":[
-            ".push({arg})",
-            ".unshift({arg})"
-        ],
-        "number":[
-            "+= {arg}",
-            "*= {arg}"
-        ]
-    },
-    "removefromvar":{
-        "string":[]
-    }
+    "changevar":{},
+    "forloop":{
+        "number":{},
 
+    },
+    "whileloop":{},
+    "if":{}
 };
 
 exports.funcroute = funcroute;

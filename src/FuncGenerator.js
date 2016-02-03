@@ -33,4 +33,5 @@ var singlefuncline = function(name, param) {
     fline = fline.replace(/\{param\}/, param);
     return fline;
 };
+exports.singlefuncline = singlefuncline;
 

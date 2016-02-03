@@ -1,11 +1,16 @@
 var ng = require("./NameGenerator.js");
 var ag = require("./ArrayGenerator.js");
+var fg = require("./FuncGenerator.js");
 
 var Funcmachine = (function () {
     function Funcmachine() {
         this.vardict = {};
-        this.funcstring = "";
+        this.funcstring = fg.singlefuncline(ng.randname(6), ng.randname(6));
     }
+    //resets the function string
+    Funcmachine.prototype.ResetFstring = function() {
+        this.funcstring = fg.singlefuncline(ng.randname(6), ng.randname(6));
+    };
 
     Funcmachine.prototype.addvar = function (name, value) {
         this.vardict.name = value;
