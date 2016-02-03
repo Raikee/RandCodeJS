@@ -18,3 +18,5 @@ var WritableString = function (main, sym) {
         this.main = this.main.replace(this.sym, string);
     }
 };
+
+exports.WritableString = WritableString;

@@ -28,7 +28,7 @@ var paramdict = function() {
 
 //creates a randomly named function with specified param and func name,
 var singlefuncline = function(name, param) {
-    var fline = "function {name}({param}) {";
+    var fline = "function {name}({param}) {\n@\n}";
     fline = fline.replace(/\{name\}/, name);
     fline = fline.replace(/\{param\}/, param);
     return fline;
