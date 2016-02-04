@@ -15,6 +15,7 @@ exports.randnum = randnum;
 var randselect = function(arr) {
     return arr[Math.floor((Math.random() * arr.length))];
 };
+exports.randselect = randselect;
 //randomly picks value from object
 var randkeyval = function(obj) {
     var select = Object.keys(obj);

@@ -12,9 +12,12 @@ var Funcmachine = (function () {
     Funcmachine.prototype.ResetFstring = function() {
         this.funcstring = fg.singlefuncline(ng.randname(6), ng.randname(6));
     };
-
-    Funcmachine.prototype.addvar = function (name, value) {
-        this.vardict.name = value;
+    Funcmachine.prototype.getFstring = function () {
+        return this.funcstring;
+    };
+    //keeps track of variable types
+    Funcmachine.prototype.addvar = function (name, type) {
+        this.vardict.name = type;
     };
     Funcmachine.prototype.getvar = function (name) {
         return this.vardict[name];
@@ -24,20 +27,17 @@ var Funcmachine = (function () {
       this.funcstring.insert(line);
     };
 
-    Funcmachine.prototype.createvar = function (type) {
+    Funcmachine.prototype.createvar = function () {
         var varname = ng.randname(6);
-        switch(type) {
-            case "number": this.addvar(varname, ng.randnum(40));
-                break;
-            case "string": this.addvar(varname, ng.randname(8));
-                break;
-            case "numarray": this.addvar(varname, ag.randnumarr(35, ng.randnum(7)));
-                break;
-            case "strarray": this.addvar(varname, ag.randstrarr(6, ng.randnum(9)));
-                break;
-            default: throw "TypeError";
-                break;
-        }
+
     };
     return Funcmachine;
 })();
+
+
+var varstring = function(name, val) {
+    var vstring = "var {name} = {val};"
+    vstring = vstring.replace(/\{name\}/,name);
+    vstring = vstring.replace(/\{val\}/, val);
+    return vstring;
+};
