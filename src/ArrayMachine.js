@@ -13,7 +13,7 @@ var ArrayMachine = function(maxops) {
     var paramname = ng.randname(6);
     var funcstr = fg.singlefuncline(ng.randname(6), paramname);
     while (count < maxops) {
-        var chosen = ng.randnum(5);
+        var chosen = ng.randnum(6);
         switch(chosen) {
             case 1: funcstr += "   " + paramname + ".sort();\n";
                 break;

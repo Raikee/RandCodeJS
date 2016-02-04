@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48163134-1a54-4b95-9f8c-3d6f3b7cb533" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ArrayMachine.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FuncStrings.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.js" afterPath="$PROJECT_DIR$/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FuncGenerator.js" afterPath="$PROJECT_DIR$/src/FuncGenerator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FuncMachine.js" afterPath="$PROJECT_DIR$/src/FuncMachine.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NameGenerator.js" afterPath="$PROJECT_DIR$/src/NameGenerator.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayMachine.js" afterPath="$PROJECT_DIR$/src/ArrayMachine.js" />
     </list>
     <ignored path="RandCodeJS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayMachine.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayMachine.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArrayMachine.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51086956">
-              <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
               <folding>
                 <element signature="e#0#37#0" expanded="false" />
               </folding>
@@ -121,14 +116,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
+              <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -173,8 +166,8 @@
         <option value="$PROJECT_DIR$/src/FuncMachine.js" />
         <option value="$PROJECT_DIR$/src/NameGenerator.js" />
         <option value="$PROJECT_DIR$/src/FuncGenerator.js" />
-        <option value="$PROJECT_DIR$/index.js" />
         <option value="$PROJECT_DIR$/src/ArrayMachine.js" />
+        <option value="$PROJECT_DIR$/index.js" />
       </list>
     </option>
   </component>
@@ -260,7 +253,7 @@
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Node.js.ArrayMachine.js">
+  <component name="RunManager" selected="Node.js.index.js">
     <configuration default="false" name="NameGenerator.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="NameGenerator.js" working-dir="$PROJECT_DIR$/src">
       <method />
     </configuration>
@@ -271,6 +264,9 @@
       <method />
     </configuration>
     <configuration default="false" name="ArrayMachine.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="ArrayMachine.js" working-dir="$PROJECT_DIR$/src">
+      <method />
+    </configuration>
+    <configuration default="false" name="index.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="/usr/local/bin/node" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -321,18 +317,20 @@
       <recursive>false</recursive>
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Node.js.NameGenerator.js" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.MathGenerator.js" />
       <item index="2" class="java.lang.String" itemvalue="Node.js.StringWriter.js" />
       <item index="3" class="java.lang.String" itemvalue="Node.js.ArrayMachine.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.index.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.ArrayMachine.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.StringWriter.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.MathGenerator.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.NameGenerator.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.index.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.ArrayMachine.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.StringWriter.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.MathGenerator.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.NameGenerator.js" />
       </list>
     </recent_temporary>
   </component>
@@ -464,9 +462,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -556,9 +552,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -600,9 +594,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -724,23 +716,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.js">
+    <entry file="file://$PROJECT_DIR$/src/ArrayMachine.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+          <caret line="15" column="33" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="33" />
           <folding>
-            <element signature="e#0#38#0" expanded="false" />
+            <element signature="e#0#37#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArrayMachine.js">
+    <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51086956">
-          <caret line="27" column="93" selection-start-line="27" selection-start-column="93" selection-end-line="27" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
