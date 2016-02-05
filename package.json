@@ -1,0 +1,33 @@
+{
+  "name": "randcodejs",
+  "version": "1.0.0",
+  "description": "A JavaScript Engine that can generate random functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raikee/RandCodeJS.git"
+  },
+  "bin":{
+    "randcodejs":"index.js"
+  },
+  "keywords": [
+    "education",
+    "teaching",
+    "computer",
+    "science",
+    "functions",
+    "random",
+    "coding",
+    "problems"
+  ],
+  "author": "Joshua Weinstein <jweinst1@berkeley.edu> (https://github.com/jweinst1)",
+  "preferGlobal": true,
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Raikee/RandCodeJS/issues"
+  },
+  "homepage": "https://github.com/Raikee/RandCodeJS#readme"
+}
